@@ -61,7 +61,7 @@ void loop(){
     int msg = Serial.read() - '0';
     char end_of_line = Serial.read();
     
-    if(end_of_line == 13 ){
+    if(end_of_line == 14 ){
       
          switch(channel){
              case 0:
